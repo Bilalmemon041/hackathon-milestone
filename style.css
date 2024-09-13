@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(3, 70, 12);
+}
+
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: rgb(206, 199, 189); 
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+    #resume{
+        height: 150vh;
+        width: 50vw;
+        background-color: rgb(181, 188, 190);;
+        display: flex;
+
+    }
+
+        
+      
+     
+    #left-side{
+        height: 150vh;
+        width: 200px;
+        background-color: rgb(107, 134, 143);
+        border: 1px solid black;
+        
+     
+    }
+
+   
+
+    #mypic{
+        height:150px;
+        width: 150px;
+        border: 1px solid wheat;
+        border-radius: 50%;
+        position: relative;
+        left: 25px;
+        background-color: rgb(181, 188, 190);
+        
+    
+
+    }
+
+    #right-side{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    #static{
+        text-align: center;
+        
+        
+        
+        
+       
+    
+    }
+
+    #name{
+        padding-top: 10%;
+        padding-right: 60% ;
+        font-style: italic;
+        margin: 0;
+        
+    }
+
+    h4{
+        padding-right: 60%;
+        margin: 0;
+        padding-bottom: 3%;
+
+    }
+
+
+
+    #right-up{
+       background-color: rgb(107, 134, 143);
+       height: 25vh;
+       width: 35.5vw; 
+       
+       text-align: center;
+       margin-top: 8%;
+       
+    }
+
+    #right-down{
+
+        height: 200px;
+        width: 484.8px;
+        background-color: rgb(181, 188, 190);
+        /* display: flex;
+        flex-grow: 1; */
+    }
+
+     .left-section{
+        
+        margin-left: 10px;
+        margin-top: 30px;
+
+    }
+    #new-section{
+        margin-top: 180px;
+    }
+
+    #mail{
+        font-size: 12px;
+    }
+
+    .right-section{
+        margin-top: 30px;
+        margin-left: 30px;
+        display: inline-block;
+    }
+
+   
+    button{
+        background-color:rgb(107, 134, 143) ;
+        border-radius: 10px;
+        font-size: x-large;
+    }
+    
+    button:hover{
+        background-color: rgb(181, 188, 190);
+    }
+
+    
+  
